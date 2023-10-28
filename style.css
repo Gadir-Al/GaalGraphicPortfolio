@@ -465,17 +465,3 @@ form textarea{
     row-gap: 0;
 }
 
-@media only screen and(max-width: 800px){
-    .card{
-        width: 90%;
-        height: 90%;
-    }
-}
-
-@media screen and (max-width: 600px)
-{
-    h2{
-        font-size: 36px;
-        line-height: 50px;
-    }
-}
