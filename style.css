@@ -471,3 +471,9 @@ form textarea{
         height: 90%;
     }
 }
+
+@media screen and (max-width: 600px)
+{
+    h2{
+        font-size: 36px;
+        line-height: 50px;
