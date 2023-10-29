@@ -470,6 +470,7 @@ form textarea{
     row-gap: 0;
 }
 
+
 @media only screen and(max-width: 800px){
     .card{
         width: 90%;
@@ -509,6 +510,5 @@ form textarea{
     }
 }
 @media screen and(max-width: 900px) and (min-width: 600px){
-    
+    /* add css for tablet screen size */
 }
-
