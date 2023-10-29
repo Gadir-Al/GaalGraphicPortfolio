@@ -47,7 +47,12 @@ header img{
     background: #359381;
     color: #fff;
 }
+.navigation.icon{
+    display: none;
+    background-color: white;
+    color: #359381;
 
+}
 .parallax{
     position: relative;
     display: flex;
@@ -470,4 +475,29 @@ form textarea{
         width: 90%;
         height: 90%;
     }
+    
 }
+
+@media screen and(max-width: 600px){
+    .navigation a:not(:first-child){display: none;}
+    .navigation.icon{
+        float: right;
+        display: block;
+
+    
+    }
+}
+@media screen and (max-width: 600px){
+    .navigation.responsive{position: relative;}
+    .navigation.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navigation.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
