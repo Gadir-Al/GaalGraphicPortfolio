@@ -36,7 +36,7 @@ header img{
 
 .navigation a{
     text-decoration: none;
-    color: #359381;
+    color: #003329;
     padding: 6px, 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -50,7 +50,7 @@ header img{
 .navigation.icon{
     display: none;
     background-color: white;
-    color: #359381;
+    color: #003329;
 
 }
 .parallax{
