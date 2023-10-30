@@ -509,7 +509,8 @@ form textarea{
         line-height: 50px;
     }
     .header{
-
+        width: 90%;
+        height: 90%;
     }
 }
 @media screen and(max-width: 900px) and (min-width: 600px){
