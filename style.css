@@ -231,6 +231,26 @@ header img{
     right: 0;
 }
 
+.tooltip.tooltipicon{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
 .contact{
     background: #003329;
     display: grid;
@@ -333,6 +353,26 @@ form textarea{
 .contact-form .submit:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.contact-icons.tooltipiconmedia.i{
+    visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.contact-icons:hover.toppltipiconmedia.i{
+  visibility: visible;
+  opacity: 1;
 }
 
 *.skills{
